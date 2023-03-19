@@ -26,9 +26,9 @@
   complianceTypeUser: You are at least 18 years old
   title: Verify your age
   template: "__**{TITLE}**__
-  
+  \n
   To access the NSFW catagories, you must click the button below to certify that
-
+  \n
   **»** {COMPLIANCE_TYPE_USER}
-
+  \n
   **Please note:** Once you certify the above, you can't revoke your certification. If you decide to certify the above when it's not true, you may be punished or removed from the server."
