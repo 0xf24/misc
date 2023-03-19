@@ -1,0 +1,35 @@
+- type: roles
+  id: pronoun-roles
+  
+  roles:
+    1086841710748909669:
+      description: it/its
+    1086841739752509550:
+      description: he/him
+    1086841762523381780:
+      description: they/them
+    1086841814117527665:
+      description: she/her
+    1086841852885467256:
+      description: ask for pronouns
+    1086841887383621663:
+      description: check pluralkit
+    1086841948498833489:
+      description: no pronouns
+
+- type: compliance
+  id: age-verification
+  
+  logChannel: 1086842985158807552
+  role: 1086843422947692676
+  buttonText: I am 18 or older
+  complianceTypeUser: You are at least 18 years old
+  title: Verify your age
+  template: >-
+  __**{TITLE}**__
+
+  To access the NSFW catagories, you must click the button below to certify that
+
+  **»** {COMPLIANCE_TYPE_USER}
+
+  **Please note:** Once you certify the above, you can't revoke your certification. If you decide to certify the above when it's not true, you may be punished or removed from the server.
